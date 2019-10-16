@@ -1,11 +1,21 @@
 p
 {
-    color: grey;
     font-family: Comic Sans MS;
+    text-align: center;
+}
+.gris
+{
+	color: darkgrey;
 }
 ul
 {
 	color: mediumslateblue;
+	text-align: center;
+}
+ul:hover
+{
+	color: lightblue;
+	font-size: 24px;
 }
 em
 {
@@ -13,18 +23,51 @@ em
 }
 .Introduction
 {
-	color: crimson;
+	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgb(255, 255, 255, 0.2);
+	color: white;
 	font-size: 28px;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
 }
-a[title]
+.Introduction:hover
+{
+	color:black;
+	background-color: rgba(255, 255, 255, 1);
+	background-color: rgb(255, 255, 255, 1);
+	font-size: 30px;
+}
+a
 {
 	color: green;
+	text-align: center;
+	text-decoration: none;
+}
+a:hover
+{
+	color: orange;
+	text-decoration: underline;	
 }
 h2
+{
+	font-size: 20px;
+}
+h4
 {
 	font-size: 20px;
 }
 .compétence
 {
 	color: mediumpurple;
+}
+.mypic
+{
+	float: left;
+}
+body
+{
+	background-image: url("images/background.png");
+	background-attachment: scroll;
+	background-repeat: repeat;
 }
