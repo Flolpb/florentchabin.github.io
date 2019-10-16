@@ -1,16 +1,30 @@
 p
 {
-    color: blue;
-}
-h1
-{
-	color: grey;
+    color: grey;
+    font-family: Comic Sans MS;
 }
 ul
 {
-	color: red;
+	color: mediumslateblue;
 }
 em
 {
 	color: red;
+}
+.Introduction
+{
+	color: crimson;
+	font-size: 28px;
+}
+a[title]
+{
+	color: green;
+}
+h2
+{
+	font-size: 20px;
+}
+.compétence
+{
+	color: mediumpurple;
 }
