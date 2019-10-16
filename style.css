@@ -9,6 +9,7 @@ p
 ul
 {
 	color: mediumslateblue;
+	list-style: none;
 }
 ul:hover
 {
@@ -36,8 +37,10 @@ em
 	background-color: rgb(255, 255, 255, 1);
 	font-size: 20px;
 }
-a
+a[class="site"]
 {
+	padding: 12px;
+	border: 3px solid grey;
 	color: orange;
 	text-decoration: none;
 }
@@ -67,4 +70,24 @@ body
 	background-image: url("images/background.png");
 	background-attachment: scroll;
 	background-repeat: repeat;
+}
+header
+{
+	text-align: center;
+	width: 700px;
+	margin: auto;
+	color: white;
+}
+#conteneur_lien
+{
+	display: flex;
+	justify-content: space-around;
+}
+aside
+{
+	color: lightgrey;
+	text-align: center;
+	width: 30%;
+	margin-left: 670px;
+	border: 10px solid crimson;
 }
