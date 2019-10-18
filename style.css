@@ -31,12 +31,13 @@ a[class="site"]
 }
 a[class="base"]
 {
-	color: crimson;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px #d60, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+	color: white;
 	text-decoration: none;
 }
 a:hover
 {
-	color: crimson;
+	color: orangered;
 }
 h2
 {
@@ -73,7 +74,9 @@ header
 }
 aside[id="indexaside"]
 {
-	color: black;
+	color: white;
+	text-shadow: 2px 5px 3px black;
+	background-image: url("images/proposdemoi.jpg");
 	text-align: center;
 	width: 30%;
 	border: 4px solid black;
@@ -110,6 +113,7 @@ footer
 article
 {
 	background-image: url("images/article.jpg");
+	text-shadow: 2px 5px 3px black;
 	color: white;
 	width: 30%;
 	border: 4px solid black;
