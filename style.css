@@ -1,6 +1,6 @@
 p
 {
-    font-family: Comic Sans MS;
+   
 }
 .gris
 {
@@ -57,10 +57,11 @@ body
 	background-image: url("images/background.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat;
+	 font-family: Comic Sans MS;
 }
 header
 {
-	width: 380px;
+	width: 400px;
 	margin: auto;
 	color: white;
 }
@@ -83,10 +84,9 @@ aside[id="indexaside"]
 }
 footer
 {
-	padding-top: 50px;
+	padding-top: 100px;
 	text-align: center;
 	margin: auto;
-
 }
 #compétences
 {
@@ -117,5 +117,14 @@ article
 	color: white;
 	width: 30%;
 	border: 4px solid black;
+	text-align: center;
+}
+/*Blog*/
+#blog1
+{
+	margin: auto;
+	width: 30%;
+	border: 4px solid black;
+	color: darkgreen;
 	text-align: center;
 }
