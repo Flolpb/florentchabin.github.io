@@ -14,10 +14,10 @@ footer{
     font-size: 2.5vw;
 }
 /*Barre du footer*/
-.barre-footer-index{
+.barre-footer{
     background: linear-gradient(45deg, rgb(0, 38, 255), rgb(206, 109, 109));
     width: 100%;
-    height: 20%;
+    height: 200px;
     position: relative;
     top: 0;
     left: 0;
@@ -82,35 +82,40 @@ footer{
     left: 85%;
 }
 /* Contenu du site*/
-.contenair{
+.contenair-index{
     background-color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
-    height: 80%;
+    height: 800px;
 }
 .presentation{
     position: absolute;
-    top: 14%;
+    top: 100px;
     left: 25%; 
     font-size: 2.1vw;
 }
 
-.bloc-presentation{
+/*.bloc-presentation{
     position: absolute;
     border-width: 5px;
     border-style: solid;
     border-radius: 10%;
     width: 40%;
     height: 35%;
-    top: 32%;
+    top: 250px;
     left: 12%;
-}
+}*/
 .contenu-presentation{
     position: absolute;
-    top: 20;
-    left: 50;
-    width: 85%;
-    height: 80%;
+    border: solid black 5px;
+    border-radius: 10%;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 1%;
+    top: 250px;
+    left: 12%;
+    width: 40%;
     font-size: 1.2vw;
 }
 .campus-academy{
@@ -132,31 +137,37 @@ footer{
 /*Bloc contact*/
 .contact{
     position: absolute;
-    top: 14%;
+    top: 100px;
     left: 74%;
     font-size: 2.1vw;
 }
-.bloc-contact{
+/*.bloc-contact{
     position: absolute;
     border-width: 5px;
     border-style: solid;
     border-radius: 10%;
     width: 20%;
     height: 50%;
-    top: 32%;
+    top: 250px;
     left: 68%;
-}
+}*/
 .contenu-contact{
     position: absolute;
-    width: 90%;
-    height: 90%;
-    top: 10%;
-    left: 35%;
+    border: solid black 5px;
+    border-radius: 10%;
+    width: 20%;
+    height: 50%;
+    top: 250px;
+    left: 68%;
     font-size: 1.7vw;
 }
 .Linked{
     text-decoration: none;
     color: #3C93E8;
+    position: absolute;
+    font-size: 1.6vw;
+    top: 10%;
+    left: 5%;
 }
 .Linked:hover{
     text-decoration: underline;
@@ -166,30 +177,36 @@ footer{
     position: absolute;
     width: 25%;
     top: 5%;
-    left: 5%;
+    left: 65%;
     border-radius: 30%;
 }
 .img-mail{
     position: absolute;
     width: 25%;
     top: 36.5%;
-    left: 5%;
+    left: 65%;
     border-radius: 30%;
 }
 .mail{
+    position: absolute;
     font-size: 1.2vw;
-    padding-top: 10%;
+    top: 30.5%;
+    left: 5%;
     color: #3C93E8;
 }
 .img-twitter{
     position: absolute;
     width: 25%;
     top: 68%;
-    left: 5%;
+    left: 65%;
     border-radius: 30%;
 }
 .twitter{
-    padding-top: 5%;
+    position: absolute;
+    font-size: 1.6vw;
+    top: 65%;
+    left: 5%;
+    color: #3C93E8;
 }
 .twitter a{
     text-decoration: none;
@@ -200,62 +217,64 @@ footer{
     color:  blue;
 }
 /*Curriculum Vitae*/
+.contenair-cv{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    height: 1200px;
+}
 .profil-professionel{
     position: absolute;
-    top: 350px;
-    left: 450px; 
-    font-size: 40px;
-}
-.bloc-profil-professionel{
-    position: absolute;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 10%;
-    width: 800px;
-    height: 100px;
-    top: 450px;
-    left: 225px;
+    top: 200px;
+    left: 22%; 
+    font-size: 2vw;
 }
 
 .contenu-profil-professionel{
+    border: solid black 5px;
+    border-radius: 10%;
     position: absolute;
-    width: 750px;
-    height: 350px;
-    top: 480px;
-    left: 270px;
-    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-bottom: 10px;
+    padding-right: 2%;
+    width: 35%;
+    top: 325px;
+    left: 13%;
+    font-size: 1.2vw;
+    text-align: justify
 }
 .competences{
     position: absolute;
-    top: 600px;
-    left: 450px; 
-    font-size: 40px;
+    top: 475px;
+    left: 22.5%; 
+    font-size: 2vw;
 }
 .bloc-competences{
     position: absolute;
     border-width: 5px;
     border-style: solid;
     border-radius: 10%;
-    width: 800px;
-    height: 200px;
-    top: 690px;
-    left: 225px;
+    width: 35%;
+    height: 220px;
+    top: 575px;
+    left: 15%;
 }
 #contenu-competences-1{
     position: absolute;
     width: 750px;
     height: 350px;
-    top: 715px;
-    left: 350px;
-    font-size: 20px;
+    top: 5px;
+    left: 10%;
+    font-size: 1.2vw;
 }
 #contenu-competences-2{
     position: absolute;
     width: 750px;
     height: 350px;
-    top: 715px;
-    left: 700px;
-    font-size: 20px;
+    top: 5px;
+    left: 60%;
+    font-size: 1.2vw;
 }
 .centre-interets{
     position: absolute;
