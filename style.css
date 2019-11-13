@@ -120,10 +120,56 @@ header{
 }
 .contenu-contact{
     position: absolute;
-    width: 350px;
+    width: 200px;
     height: 350px;
+    top: 495px;
+    left: 1425px;
+    font-size: 30px;
+}
+.Linked{
+    text-decoration: none;
+    color: #3C93E8;
+}
+.Linked:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.img-linked{
+    position: absolute;
     top: 475px;
-    left: 1325px;
+    left: 1315px;
+    width: 100px;
+    border-radius: 10%;
+}
+.img-mail{
+    position: absolute;
+    top: 595px;
+    left: 1310px;
+    width: 100px;
+    border-radius: 30%;
+}
+.mail{
+    font-size: 25px;
+    padding-top: 25px;
+    color: #3C93E8;
+}
+.img-twitter{
+    position: absolute;
+    top: 725px;
+    left: 1310px;
+    width: 100px;
+    border-radius: 30%;
+}
+.twitter{
+    padding-top: 25px;
+}
+.twitter a{
+    text-decoration: none;
+    color: #3C93E8;
+}
+.twitter a:hover{
+    text-decoration: underline;
+    color:  blue;
 }
 /*Curriculum Vitae*/
 .profil-professionel{
