@@ -89,7 +89,7 @@ footer{
     top: 30px;
     left: 85%;
 }
-/* Contenu du site*/
+/* Contenu de l'accueil*/
 .contenair-index{
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -120,11 +120,12 @@ footer{
     padding-top: 20px; 
     padding-bottom: 20px;
     padding-left: 2%;
-    padding-right: 1%;
+    padding-right: 2%;
     top: 250px;
     left: 12%;
     width: 40%;
     font-size: 1.2vw;
+    text-align: justify;
 }
 .campus-academy{
     text-decoration: none;
@@ -224,12 +225,12 @@ footer{
     text-decoration: underline;
     color:  blue;
 }
-/*Curriculum Vitae*/
+/*Contenu Curriculum Vitae*/
 .contenair-cv{
     background-color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
-    height: 1000px;
+    height: 1200px;
 }
 .profil-professionel{
     position: absolute;
@@ -250,7 +251,7 @@ footer{
     top: 325px;
     left: 13%;
     font-size: 1.2vw;
-    text-align: justify
+    text-align: justify;
 }
 .competences{
     position: absolute;
@@ -264,24 +265,17 @@ footer{
     border-style: solid;
     border-radius: 10%;
     width: 35%;
-    height: 220px;
     top: 575px;
     left: 15%;
+    display: flex;
+    justify-content: space-around;
 }
 #contenu-competences-1{
-    position: absolute;
-    width: 750px;
-    height: 350px;
-    top: 5px;
-    left: 10%;
+    position: relative;
     font-size: 1.2vw;
 }
 #contenu-competences-2{
-    position: absolute;
-    width: 750px;
-    height: 350px;
-    top: 5px;
-    left: 60%;
+    position: relative;
     font-size: 1.2vw;
 }
 .centre-interets{
@@ -305,6 +299,30 @@ footer{
 }
 #contenu-centre-interets li{
     padding-top: 10px;
+}
+.ma-formation{
+    position: absolute;
+    top: 850px;
+    left: 35%;
+    font-size: 2vw;
+}
+.formation{
+    border: solid black 5px;
+    border-radius: 10%;
+    position: absolute;
+    top: 950px;
+    left: 13%;
+    width: 75%;
+    height: 200px;
+}
+.college{
+
+}
+.lycee{
+
+}
+.etude{
+    
 }
 
 /*Le plus*/
