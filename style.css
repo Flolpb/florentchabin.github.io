@@ -3,21 +3,42 @@
 body{
     font-family: McLaren;
     text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
 }
 header{
-    font-size: 40px;
+    font-size: 2.5vw;
+}
+footer{
+    font-size: 2.5vw;
+}
+/*Barre du footer*/
+.barre-footer-index{
+    background: linear-gradient(45deg, rgb(0, 38, 255), rgb(206, 109, 109));
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.copyright{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 1vw;
+    padding-top: 20px;
 }
 /* Barre du menu*/
 .barremenu{
     background: linear-gradient(267deg, rgb(234, 0, 255), #3C93E8);
     background-size: 400% 400%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 175px;
+    position: relative;
+    width: 100%;
+    height: 200px;
     animation: background-color-menu 10s linear infinite;
 }
+
 @keyframes background-color-menu{
     0%{
         background-position: 0% 50%;
@@ -31,41 +52,47 @@ header{
 }
 .cf{
     position: absolute;
-    top: 23px;
-    left: 46px;
+    top: 30px;
+    left: 5%;
 }
 .myimg{
     position: absolute;
-    top: 10px;
-    left: 525px;
+    top: 30px;
+    left: 28%;
     border-radius: 35%;
-    width: 175px;
-    box-shadow: grey 1px 3px 1px;
+    width: 10%;
+    z-index: 1;
 }
 .accueil{
     text-decoration: none;
     position: absolute;
-    top: 63px;
-    left: 900px;
+    top: 30px;
+    left: 45%;
 }
 .cv{
     text-decoration: none;
     position: absolute;
-    top: 63px;
-    left: 1150;
+    top: 30px;
+    left: 60%;
 }
 .blog{
     text-decoration: none;
     position: absolute;
-    top: 63px;
-    left: 1630px;
+    top: 30px;
+    left: 85%;
 }
 /* Contenu du site*/
+.contenair{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
 .presentation{
     position: absolute;
-    top: 270;
-    left: 480; 
-    font-size: 40px;
+    top: 14%;
+    left: 25%; 
+    font-size: 2.1vw;
 }
 
 .bloc-presentation{
@@ -73,18 +100,18 @@ header{
     border-width: 5px;
     border-style: solid;
     border-radius: 10%;
-    width: 800px;
-    height: 400px;
-    top: 450px;
-    left: 220px;
+    width: 40%;
+    height: 35%;
+    top: 32%;
+    left: 12%;
 }
 .contenu-presentation{
     position: absolute;
-    width: 750px;
-    height: 350px;
-    top: 465px;
-    left: 260px;
-    font-size: 20px;
+    top: 20;
+    left: 50;
+    width: 85%;
+    height: 80%;
+    font-size: 1.2vw;
 }
 .campus-academy{
     text-decoration: none;
@@ -102,29 +129,30 @@ header{
     text-decoration: underline;
     color: blue;
 }
+/*Bloc contact*/
 .contact{
     position: absolute;
-    top: 270;
-    left: 1400px;
-    font-size: 40px;
+    top: 14%;
+    left: 74%;
+    font-size: 2.1vw;
 }
 .bloc-contact{
     position: absolute;
     border-width: 5px;
     border-style: solid;
     border-radius: 10%;
-    width: 400px;
-    height: 400px;
-    top: 450px;
-    left: 1280px;
+    width: 20%;
+    height: 50%;
+    top: 32%;
+    left: 68%;
 }
 .contenu-contact{
     position: absolute;
-    width: 200px;
-    height: 350px;
-    top: 495px;
-    left: 1425px;
-    font-size: 30px;
+    width: 90%;
+    height: 90%;
+    top: 10%;
+    left: 35%;
+    font-size: 1.7vw;
 }
 .Linked{
     text-decoration: none;
@@ -136,32 +164,32 @@ header{
 }
 .img-linked{
     position: absolute;
-    top: 475px;
-    left: 1315px;
-    width: 100px;
-    border-radius: 10%;
+    width: 25%;
+    top: 5%;
+    left: 5%;
+    border-radius: 30%;
 }
 .img-mail{
     position: absolute;
-    top: 595px;
-    left: 1310px;
-    width: 100px;
+    width: 25%;
+    top: 36.5%;
+    left: 5%;
     border-radius: 30%;
 }
 .mail{
-    font-size: 25px;
-    padding-top: 25px;
+    font-size: 1.2vw;
+    padding-top: 10%;
     color: #3C93E8;
 }
 .img-twitter{
     position: absolute;
-    top: 725px;
-    left: 1310px;
-    width: 100px;
+    width: 25%;
+    top: 68%;
+    left: 5%;
     border-radius: 30%;
 }
 .twitter{
-    padding-top: 25px;
+    padding-top: 5%;
 }
 .twitter a{
     text-decoration: none;
@@ -174,8 +202,8 @@ header{
 /*Curriculum Vitae*/
 .profil-professionel{
     position: absolute;
-    top: 270;
-    left: 300; 
+    top: 350px;
+    left: 450px; 
     font-size: 40px;
 }
 .bloc-profil-professionel{
@@ -185,22 +213,22 @@ header{
     border-radius: 10%;
     width: 800px;
     height: 100px;
-    top: 350px;
-    left: 100px;
+    top: 450px;
+    left: 225px;
 }
 
 .contenu-profil-professionel{
     position: absolute;
     width: 750px;
     height: 350px;
-    top: 370px;
-    left: 120px;
+    top: 480px;
+    left: 270px;
     font-size: 20px;
 }
 .competences{
     position: absolute;
-    top: 470;
-    left: 300; 
+    top: 600px;
+    left: 450px; 
     font-size: 40px;
 }
 .bloc-competences{
@@ -210,35 +238,61 @@ header{
     border-radius: 10%;
     width: 800px;
     height: 200px;
-    top: 550px;
-    left: 100px;
+    top: 690px;
+    left: 225px;
 }
 #contenu-competences-1{
     position: absolute;
     width: 750px;
     height: 350px;
-    top: 575px;
-    left: 200px;
+    top: 715px;
+    left: 350px;
     font-size: 20px;
 }
 #contenu-competences-2{
     position: absolute;
     width: 750px;
     height: 350px;
-    top: 575px;
-    left: 500px;
+    top: 715px;
+    left: 700px;
     font-size: 20px;
 }
-
+.centre-interets{
+    position: absolute;
+    top: 350;
+    left: 1300; 
+    font-size: 40px;
+}
+.bloc-centre-interets{
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    top: 450px;
+    left: 1280px;
+}
+#contenu-centre-interets{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 485px;
+    left: 1300px;
+    font-size: 27px;
+}
 
 /*Le plus*/
 .second-color
 {
     color: #85FFD8;
 }
+.lien-menu{
+    text-decoration: none;
+}
 .lien-menu:hover{
     color: white;
-    font-size: 50px;
+    font-size: 2.7vw;
     text-shadow: 10px 0px 10px black;
 }
 .etoile1{
@@ -332,3 +386,6 @@ header{
       top: 500px;
     }
   }
+
+  /*Pour mobile*/
+  
