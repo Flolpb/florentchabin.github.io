@@ -1,193 +1,287 @@
 
-header
-{
-	color: white;
-	
+
+body{
+    font-family: McLaren;
+    text-decoration: none;
 }
-#menu
-{
-	padding-top: 15px;
-	display: flex;
-	justify-content: space-around;
+header{
+    font-size: 40px;
 }
-#conteneur_lien
-{
-	font-size: 20px;
-	display: flex;
-	justify-content: space-between;
+/* Barre du menu*/
+.barremenu{
+    background: linear-gradient(267deg, rgb(234, 0, 255), #3C93E8);
+    background-size: 400% 400%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 175px;
+    animation: background-color-menu 10s linear infinite;
 }
-#moi
-{
-	font-size: 30px;
+@keyframes background-color-menu{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
-a[class="site"]
-{
-	color: lightskyblue;
-	text-decoration: none;
-	padding-left: 10px;
+.cf{
+    position: absolute;
+    top: 23px;
+    left: 46px;
 }
-.gris
-{
-	color: darkgrey;
+.myimg{
+    position: absolute;
+    top: 10px;
+    left: 525px;
+    border-radius: 35%;
+    width: 175px;
+    box-shadow: grey 1px 3px 1px;
 }
-ul
-{
-	list-style: none;
+.accueil{
+    text-decoration: none;
+    position: absolute;
+    top: 63px;
+    left: 900px;
 }
-em
-{
-	color: red;
+.cv{
+    text-decoration: none;
+    position: absolute;
+    top: 63px;
+    left: 1150;
 }
-.Introduction
-{
-	color: white;
-	font-size: 40px;
-	font-weight: bold;
-	margin-right: 110px;
+.blog{
+    text-decoration: none;
+    position: absolute;
+    top: 63px;
+    left: 1630px;
+}
+/* Contenu du site*/
+.presentation{
+    position: absolute;
+    top: 270;
+    left: 480; 
+    font-size: 40px;
 }
 
-a[class="base"]
-{
-	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px #d60, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
-	color: white;
-	text-decoration: none;
+.bloc-presentation{
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    width: 800px;
+    height: 400px;
+    top: 450px;
+    left: 220px;
 }
-a:hover
-{
-	color: orange;
+.contenu-presentation{
+    position: absolute;
+    width: 750px;
+    height: 350px;
+    top: 465px;
+    left: 260px;
+    font-size: 20px;
+}
+.campus-academy{
+    text-decoration: none;
+    color: crimson;
+}
+.campus-academy:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.basket{
+    text-decoration: none;
+    color: crimson;
+}
+.basket:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.contact{
+    position: absolute;
+    top: 270;
+    left: 1400px;
+    font-size: 40px;
+}
+.bloc-contact{
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    top: 450px;
+    left: 1280px;
+}
+.contenu-contact{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 475px;
+    left: 1325px;
+}
+/*Curriculum Vitae*/
+.profil-professionel{
+    position: absolute;
+    top: 270;
+    left: 300; 
+    font-size: 40px;
+}
+.bloc-profil-professionel{
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    width: 800px;
+    height: 100px;
+    top: 350px;
+    left: 100px;
+}
+.contenu-profil-professionel{
+    position: absolute;
+    width: 750px;
+    height: 350px;
+    top: 370px;
+    left: 120px;
+    font-size: 20px;
+}
+.competences{
+    position: absolute;
+    top: 470;
+    left: 300; 
+    font-size: 40px;
+}
+.bloc-competences{
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+    width: 800px;
+    height: 200px;
+    top: 550px;
+    left: 100px;
+}
+#contenu-competences-1{
+    position: absolute;
+    width: 750px;
+    height: 350px;
+    top: 575px;
+    left: 200px;
+    font-size: 20px;
+}
+#contenu-competences-2{
+    position: absolute;
+    width: 750px;
+    height: 350px;
+    top: 575px;
+    left: 500px;
+    font-size: 20px;
 }
 
-body
-{
 
-	background: url("images/Background1.jpg");
-	background-repeat: repeat-x;
-	background-position: fixed;
-	background-size: 65%;
-	background-position: bottom;
-	background-color: mediumblue;
-	background-attachment: fixed;
-	font-family: Comic Sans MS;
-}
-aside[id="indexaside"]
+/*Le plus*/
+.second-color
 {
-	color: white;
-	background-color: mediumblue;
-	text-align: center;
-	width: 30%;
-	border: 4px solid white;
-	margin-top: 125px;
+    color: #85FFD8;
 }
-article
-{
-	background-color: mediumblue;
-	color: white;
-	width: 30%;
-	border: 4px solid white;
-	text-align: center;
-	margin-top: 125px;
+.lien-menu:hover{
+    color: white;
+    font-size: 50px;
+    text-shadow: 10px 0px 10px black;
 }
-footer
-{
-	width: 500px;
-	text-align: center;
-	margin: auto;
-	background-color: mediumblue;
-	border: 4px solid white;
-	margin-top: 200px;
-	padding-bottom: 20px;
-	color: white;
+.etoile1{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.1));
+    border-radius: 50%;
+    animation-name: etoile1-bouge;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
 }
-#compétences
-{
-	background-color: mediumblue;
-	display: flex;
-	flex-direction: column;
-	width: 325px;
-	border: 4px solid white;
-	text-align: center;
-	color: white;
-}
-#conteneur_cv
-{
-	display: flex;
-	justify-content: space-around;
-}
-.mypic
-{
-	float: left;
-	border: 4px solid white;
-}
-#cv
-{
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-top: 70px;
-	margin: auto;
-	background-color: mediumblue;
-	border: 4px solid white;
-	text-align: center;
-	color: white;
-}
-#indexsection
-{
-	display: flex;
-	justify-content: space-around;
+@keyframes etoile1-bouge{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 30%;
+        opacity: 0.3;
+    }
+    100%{
+        left: 100%;
+        top: 10px;
+        opacity: 0;
+    }
 }
 
-/*Blog*/
-#blog1
-{
-	margin: auto;
-	margin-top: 50px;
-	width: 30%;
-	border: 4px solid white;
-	background-color: mediumblue;
-	color: white;
-	text-align: center;
+.etoile2{
+    position: absolute;
+    top: 50px;
+    right: 0%;
+    bottom: 0;
+    left: 100%;
+    width: 7px;
+    height: 7px;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.1));
+    border-radius: 50%;
+    animation-name: etoile2-bouge;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
 }
-#loisirs
-{
-	display: flex;
-	margin: auto;
-	margin-top: 100px;
-	width: 75%;
-	justify-content: space-around;
-	border: 10px solid white;
-	color: white;
+@keyframes etoile2-bouge{
+    0%{
+        left: 100%;
+    }
+    50%{
+        left: 30%;
+        opacity: 0.3;
+    }
+    100%{
+        left: 0%;
+        top: 50px;
+        opacity: 0;
+    }
 }
-#basket
-{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	width: auto;
-	border: 4px dashed white;
-	background-color: mediumblue;
-	padding-right: 10px;
-	text-align: center;
-}
-#basket ul
-{
-	text-align: left;
-	text-decoration: underline;
-}
-#Jeux
-{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	border: 4px dashed white;
-	background-color: mediumblue;
-	width: auto;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-#rubiks
-{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	border: 4px dashed white;
-	background-color: mediumblue;
-	width: auto;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+
+
+#ball {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    left: 190px;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      #ffa600,
+      #ff6600
+    );
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce{
+    0% {
+      top: 500px;
+    }
+    50% {
+      top: 750px;
+      width: 130px;
+      height: 70px;
+    }
+    100% {
+      top: 500px;
+    }
+  }
