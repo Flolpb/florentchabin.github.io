@@ -151,21 +151,7 @@ footer{
     color: blue;
 }
 /*Bloc contact*/
-.pdf{
-    position: fixed;
-    left: 0;
-    background: crimson;   
-    top: 50%;
-    z-index: 10;
-    border: white solid 1px;
-    border-radius: 10%;
-    font-size: 1.5vw;
-    color: white;
-}
-.pdf:hover{
-    text-align: center;
-    width: 5%;
-}
+
 .contact{
     position: absolute;
     top: 100px;
@@ -384,7 +370,21 @@ footer{
     margin: 10px 1% 10px 1%;
     background-color: rgba(255, 255, 255, 0.7);
 }
-
+.pdf{
+    position: fixed;
+    left: 0;
+    background: crimson;   
+    top: 50%;
+    z-index: 10;
+    border: white solid 1px;
+    border-radius: 10%;
+    font-size: 1.5vw;
+    color: white;
+}
+.pdf:hover{
+    text-align: center;
+    width: 5%;
+}
 /*Le plus*/
 .second-color
 {
