@@ -1,5 +1,11 @@
 
 
+/*BASE
+
+DU 
+
+SITE */
+
 body{
     font-family: McLaren;
     text-decoration: none;
@@ -13,7 +19,17 @@ header{
 footer{
     font-size: 2.5vw;
 }
-/*Barre du footer*/
+
+
+/*Barre 
+
+des
+
+différents 
+
+footers*/
+
+
 .barre-footer-index{
     background: linear-gradient(267deg, rgb(83, 80, 83), rgb(223, 223, 219), rgb(83, 80, 83));
     width: 100%;
@@ -37,7 +53,19 @@ footer{
     font-size: 1vw;
     padding-top: 20px;
 }
-/* Barre du menu*/
+
+
+/* Barre 
+
+du 
+
+menu
+
+de 
+
+navigation*/
+
+
 .barremenu{
     background: linear-gradient(267deg, rgb(156, 154, 151), rgb(83, 80, 83), rgb(223, 223, 219));
     background-size: 400% 400%;
@@ -95,7 +123,17 @@ footer{
     left: 85%;
     color: gray;
 }
-/* Contenu de l'accueil*/
+
+
+
+/* Contenu 
+
+de 
+
+l'accueil*/
+
+
+
 .contenair-index{
     position: relative;
     width: 100%;
@@ -110,6 +148,9 @@ footer{
     background-color: black;
     opacity: 0.7;
 }
+
+/*Le bloc présentation*/ 
+
 .presentation{
     position: absolute;
     top: 100px;
@@ -150,7 +191,9 @@ footer{
     text-decoration: underline;
     color: blue;
 }
-/*Bloc contact*/
+
+/*Le Bloc 
+contact*/
 
 .contact{
     position: absolute;
@@ -227,7 +270,22 @@ footer{
     text-decoration: underline;
     color:  blue;
 }
-/*Contenu Curriculum Vitae*/
+
+
+
+/*Contenu 
+
+de
+
+la 
+
+page 
+
+Curriculum 
+
+Vitae*/
+
+
 .contenair-cv{
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -243,6 +301,9 @@ footer{
     background-color: black;
     opacity: 0.7;
 }
+
+/*Bloc profil professionel*/
+
 .profil-professionel{
     position: absolute;
     top: 200px;
@@ -268,6 +329,9 @@ footer{
     font-size: 1.2vw;
     text-align: justify;
 }
+
+/*Bloc compétences*/
+
 .competences{
     position: absolute;
     top: 535px;
@@ -297,6 +361,9 @@ footer{
     position: relative;
     font-size: 1.2vw;
 }
+
+/*Bloc centre interets*/
+
 .centre-interets{
     position: absolute;
     top: 200px;
@@ -323,6 +390,9 @@ footer{
 #contenu-centre-interets li{
     padding-top: 10px;
 }
+
+/*Bloc formation*/
+
 .ma-formation{
     position: absolute;
     top: 850px;
@@ -370,6 +440,8 @@ footer{
     margin: 10px 1% 10px 1%;
     background-color: rgba(255, 255, 255, 0.7);
 }
+/*Le bouton pdf*/
+
 .pdf{
     position: fixed;
     left: 0;
@@ -385,7 +457,73 @@ footer{
     text-align: center;
     width: 5%;
 }
-/*Le plus*/
+
+/* La
+
+page
+
+du
+
+blog 
+
+*/
+
+.contenair-blog{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: url("images/basketball3.jpg") no-repeat center fixed;
+    background-size: cover;
+    animation: change-background 120s linear infinite;
+}
+@keyframes change-background{
+    20%{
+        background: url("images/basketball3.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    25%{
+        background: url("images/basketball5.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    40%{
+        background: url("images/basketball5.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    45%{
+        background: url("images/basketball3.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    60%{
+        background: url("images/basketball3.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    65%{
+        background: url("images/basketball5.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    80%{
+        background: url("images/basketball5.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    85%{
+        background: url("images/basketball3.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+}
+
+.contenair-blog .opa{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+
+/*Le 
+
+plus*/
+
 .second-color
 {
     color: white;
