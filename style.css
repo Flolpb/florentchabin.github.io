@@ -39,7 +39,7 @@ footer{
 }
 /* Barre du menu*/
 .barremenu{
-    background: linear-gradient(267deg, rgb(84, 4, 175), rgb(136, 4, 125), #3C93E8);
+    background: linear-gradient(267deg, rgb(156, 154, 151), rgb(83, 80, 83), rgb(223, 223, 219));
     background-size: 400% 400%;
     position: relative;
     width: 100%;
@@ -103,18 +103,25 @@ footer{
     background: url("images/basketball2.jpeg") no-repeat center fixed;
     background-size: cover;
 }
+.contenair-index .opa{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    opacity: 0.7;
+}
 .presentation{
     position: absolute;
     top: 100px;
     left: 25%; 
     font-size: 2.3vw;
     color: white;
-    -webkit-text-stroke: 0.15vw;
+    -webkit-text-stroke: 0.1vw;
     -webkit-text-stroke-color: black;
 }
 .contenu-presentation{
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     border: solid black 5px;
     border-radius: 10%;
     padding-top: 20px; 
@@ -227,6 +234,13 @@ footer{
     height: 1300px;
     background: url("images/informatique.jpeg") no-repeat center fixed;
     background-size: cover;
+}
+.contenair-cv .opa{
+    position: absolute;
+    width: 100%;
+    height: 1300px;
+    background-color: black;
+    opacity: 0.7;
 }
 .profil-professionel{
     position: absolute;
@@ -377,7 +391,7 @@ footer{
     left: 0;
     width: 7px;
     height: 7px;
-    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.1));
+    background: linear-gradient(rgb(255, 255, 255), rgb(139, 139, 139));
     border-radius: 50%;
     animation-name: etoile1-bouge;
     animation-iteration-count: infinite;
