@@ -15,7 +15,7 @@ footer{
 }
 /*Barre du footer*/
 .barre-footer-index{
-    background: linear-gradient(45deg, rgb(0, 38, 255), rgb(206, 109, 109));
+    background: linear-gradient(25deg, #3C93E8, rgb(206, 109, 109));
     width: 100%;
     height: 200px;
     position: relative;
@@ -23,7 +23,7 @@ footer{
     left: 0;
 }
 .barre-footer-cv{
-    background: linear-gradient(45deg, rgb(0, 38, 255), rgb(206, 109, 109));
+    background: linear-gradient(25deg, #3C93E8, rgb(206, 109, 109));
     width: 100%;
     height: 200px;
     position: relative;
@@ -39,7 +39,7 @@ footer{
 }
 /* Barre du menu*/
 .barremenu{
-    background: linear-gradient(267deg, rgb(234, 0, 255), #3C93E8);
+    background: linear-gradient(267deg, rgb(84, 4, 175), rgb(136, 4, 125), #3C93E8);
     background-size: 400% 400%;
     position: relative;
     width: 100%;
@@ -58,10 +58,13 @@ footer{
         background-position: 0% 50%;
     }
 }
+
+
 .cf{
     position: absolute;
     top: 30px;
     left: 5%;
+    color: gray;
 }
 .myimg{
     position: absolute;
@@ -76,31 +79,38 @@ footer{
     position: absolute;
     top: 30px;
     left: 45%;
+    color: gray;
 }
 .cv{
     text-decoration: none;
     position: absolute;
     top: 30px;
     left: 60%;
+    color: gray;
 }
 .blog{
     text-decoration: none;
     position: absolute;
     top: 30px;
     left: 85%;
+    color: gray;
 }
 /* Contenu de l'accueil*/
 .contenair-index{
-    background-color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
     height: 800px;
+    background: url("images/basketball.jpeg") no-repeat center fixed;
+    background-size: cover;
 }
 .presentation{
     position: absolute;
     top: 100px;
     left: 25%; 
     font-size: 2.1vw;
+    color: white;
+    -webkit-text-stroke: 0.1vw;
+    -webkit-text-stroke-color: black;
 }
 
 /*.bloc-presentation{
@@ -115,6 +125,7 @@ footer{
 }*/
 .contenu-presentation{
     position: absolute;
+    background: white;
     border: solid black 5px;
     border-radius: 10%;
     padding-top: 20px; 
@@ -148,7 +159,10 @@ footer{
     position: absolute;
     top: 100px;
     left: 74%;
-    font-size: 2.1vw;
+    font-size: 2.3vw;
+    color: white;
+    -webkit-text-stroke: 0.1vw;
+    -webkit-text-stroke-color: black;
 }
 /*.bloc-contact{
     position: absolute;
@@ -168,6 +182,7 @@ footer{
     height: 50%;
     top: 250px;
     left: 68%;
+    background: white;
     font-size: 1.7vw;
 }
 .Linked{
@@ -230,7 +245,7 @@ footer{
     background-color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
-    height: 1200px;
+    height: 1300px;
 }
 .profil-professionel{
     position: absolute;
@@ -243,6 +258,7 @@ footer{
     border: solid black 5px;
     border-radius: 10%;
     position: absolute;
+    background: white;
     padding-top: 10px;
     padding-left: 2%;
     padding-bottom: 10px;
@@ -261,6 +277,7 @@ footer{
 }
 .bloc-competences{
     position: absolute;
+    background: white;
     border-width: 5px;
     border-style: solid;
     border-radius: 10%;
@@ -289,6 +306,7 @@ footer{
     border-width: 5px;
     border-style: solid;
     border-radius: 10%;
+    background: white;
     width: 15.5%;
     top: 325px;
     left: 70%;
@@ -309,20 +327,40 @@ footer{
 .formation{
     border: solid black 5px;
     border-radius: 10%;
+    background: linear-gradient(5deg, rgba(247, 65, 231, 0.4), #3C93E8);
     position: absolute;
     top: 950px;
     left: 13%;
     width: 75%;
     height: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2vw;
+    text-align: justify;
 }
 .college{
-
+    border: solid black 2px;
+    padding: 20px 1% 0px 1%;
+    border-radius: 20%;
+    position: relative;
+    margin: 10px 1% 10px 1%;
+    background-color: white;
 }
 .lycee{
-
+    border: solid black 2px;
+    padding: 20px 1% 0px 1%;
+    border-radius: 20%;
+    position: relative;
+    margin: 10px 1% 10px 1%;
+    background-color: white;
 }
 .etude{
-    
+    border: solid black 2px;
+    padding: 20px 1% 0px 1%;
+    border-radius: 20%;
+    position: relative;
+    margin: 10px 1% 10px 1%;
+    background-color: white;
 }
 
 /*Le plus*/
