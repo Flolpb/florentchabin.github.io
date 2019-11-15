@@ -474,7 +474,7 @@ blog
     height: 800px;
     background: url("images/basketball3.jpg") no-repeat center fixed;
     background-size: cover;
-    animation: change-background 120s linear infinite;
+    animation: change-background 80s linear infinite;
 }
 @keyframes change-background{
     20%{
