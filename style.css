@@ -4,7 +4,19 @@
 
 DU 
 
-SITE */
+SITE 
+
+POUR
+
+PC 
+
+ET
+
+TABLETTE
+*/
+
+
+
 
 body{
     font-family: McLaren;
@@ -14,10 +26,13 @@ body{
     overflow-x: hidden;
 }
 header{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
 }
 footer{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
+}
+li{
+    list-style: none;
 }
 
 
@@ -33,24 +48,20 @@ footers*/
 .barre-footer-index{
     background: linear-gradient(267deg, rgb(83, 80, 83), rgb(223, 223, 219), rgb(83, 80, 83));
     width: 100%;
-    height: 10.4vw;
+    height: 10.4rem;
     position: relative;
-    top: 0;
-    left: 0;
 }
 .barre-footer-cv{
     background: linear-gradient(267deg, rgb(83, 80, 83), rgb(223, 223, 219), rgb(83, 80, 83));
     width: 100%;
-    height: 250px;
+    height: 10.4rem;
     position: relative;
-    top: 0;
-    left: 0;
 }
 .copyright{
     position: relative;
     margin: auto;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1rem;
     padding-top: 20px;
 }
 
@@ -65,15 +76,18 @@ de
 
 navigation*/
 
-
 .barremenu{
     background: linear-gradient(267deg, rgb(156, 154, 151), rgb(83, 80, 83), rgb(223, 223, 219));
     background-size: 400% 400%;
     position: relative;
     width: 100%;
-    height: 10.4vw;
     animation: background-color-menu 10s linear infinite;
+    font-size: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 
 @keyframes background-color-menu{
     0%{
@@ -86,42 +100,25 @@ navigation*/
         background-position: 0% 50%;
     }
 }
-
-
 .cf{
-    position: absolute;
-    top: 1.5vw;
-    left: 5%;
-    color: gray;
+    position: relative;
+    top: 2.5rem;
+    text-align: center;
 }
 .myimg{
-    position: absolute;
-    top: 1.5vw;
-    left: 28%;
+    position: relative;
+    top: 2.5rem;
     border-radius: 35%;
-    width: 10%;
+    width: 10rem;
     z-index: 1;
 }
-.accueil{
+.accueil, .cv, .blog{
     text-decoration: none;
-    position: absolute;
-    top: 1.5vw;
-    left: 45%;
-    color: gray;
-}
-.cv{
-    text-decoration: none;
-    position: absolute;
-    top: 1.5vw;
-    left: 60%;
-    color: gray;
-}
-.blog{
-    text-decoration: none;
-    position: absolute;
-    top: 1.5vw;
-    left: 85%;
-    color: gray;
+    position: relative;
+    top: 2.5rem;
+    margin-left: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 
@@ -137,31 +134,35 @@ l'accueil*/
 .contenair-index{
     position: relative;
     width: 100%;
-    height: 800px;
     background: url("images/basketball2.jpeg") no-repeat center fixed;
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: -2;
 }
 .contenair-index .opa{
     position: absolute;
     width: 100%;
-    height: 800px;
+    height: 100%;
     background-color: black;
     opacity: 0.7;
+    z-index: -1;
 }
 
 /*Le bloc présentation*/ 
 
-.presentation{
-    position: absolute;
-    top: 100px;
-    left: 25%; 
-    font-size: 2.3vw;
+.titre{
+    margin-top: 5.25rem;
+    font-size: 2.3rem;
     color: white;
     -webkit-text-stroke: 0.1vw;
     -webkit-text-stroke-color: black;
+    text-align: center;
+    z-index: 1;
 }
 .contenu-presentation{
-    position: absolute;
+    position: relative;
     background-color: rgba(255, 255, 255, 0.8);
     border: solid black 5px;
     border-radius: 10%;
@@ -169,11 +170,23 @@ l'accueil*/
     padding-bottom: 20px;
     padding-left: 2%;
     padding-right: 2%;
-    top: 250px;
-    left: 12%;
-    width: 40%;
-    font-size: 1.2vw;
-    text-align: justify;
+    top: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+@media (min-width: 700px){
+    .contenu-presentation{
+        width: 35rem;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 700px){
+    .contenu-presentation{
+        width: 15rem;
+        font-size: 1.3rem;
+    }
 }
 .campus-academy{
     text-decoration: none;
@@ -195,72 +208,56 @@ l'accueil*/
 /*Le Bloc 
 contact*/
 
-.contact{
-    position: absolute;
-    top: 100px;
-    left: 74%;
-    font-size: 2.3vw;
-    color: white;
-    -webkit-text-stroke: 0.1vw;
-    -webkit-text-stroke-color: black;
-}
 .contenu-contact{
-    position: absolute;
+    position: relative;
     border: solid black 5px;
     border-radius: 10%;
-    width: 20%;
-    height: 50%;
-    top: 250px;
-    left: 68%;
+    width: 15rem;
+    top: 2rem;
     background: rgba(255, 255, 255, 1);
-    font-size: 1.7vw;
+    font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+.bloc-index{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: space-between;
+}
+.taille-contenu-contact{
+    width: 10rem;
 }
 .Linked{
     text-decoration: none;
     color: black;
-    position: absolute;
-    font-size: 1.6vw;
-    top: 10%;
-    left: 5%;
+    padding-top: 1rem;
 }
 .Linked:hover{
     text-decoration: underline;
     color: blue;
 }
 .img-linked{
-    position: absolute;
-    width: 25%;
-    top: 5%;
-    left: 65%;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    width: 3rem;
     border-radius: 30%;
 }
 .img-mail{
-    position: absolute;
-    width: 25%;
-    top: 36.5%;
-    left: 65%;
+    margin-left: 1.5rem;
+    max-height: 3rem;
+    margin-top: 3rem;
+    width: 3rem;
     border-radius: 30%;
-}
-.mail{
-    position: absolute;
-    font-size: 1.2vw;
-    top: 30.5%;
-    left: 5%;
-    color: black;
 }
 .img-twitter{
-    position: absolute;
-    width: 25%;
-    top: 68%;
-    left: 65%;
+    margin-left: 1.5rem;
+    margin-top: 0.8rem;
+    width: 3rem;
     border-radius: 30%;
-}
-.twitter{
-    position: absolute;
-    font-size: 1.6vw;
-    top: 65%;
-    left: 5%;
-    color: black;
 }
 .twitter a{
     text-decoration: none;
@@ -290,135 +287,131 @@ Vitae*/
     background-color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
-    height: 1300px;
     background: url("images/informatique.jpeg") no-repeat center fixed;
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: -2;
 }
 .contenair-cv .opa{
     position: absolute;
     width: 100%;
-    height: 1300px;
+    height: 100%;
     background-color: black;
     opacity: 0.7;
+    z-index: -1;
 }
 
 /*Bloc profil professionel*/
 
-.profil-professionel{
-    position: absolute;
-    top: 200px;
-    left: 22%; 
-    font-size: 2vw;
-    color: white;
-    -webkit-text-stroke: 0.1vw;
-    -webkit-text-stroke-color: black;
-}
 
 .contenu-profil-professionel{
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
     border: solid black 5px;
     border-radius: 10%;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.7);
-    padding-top: 10px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
     padding-left: 2%;
-    padding-bottom: 10px;
     padding-right: 2%;
-    width: 35%;
-    top: 325px;
-    left: 13%;
-    font-size: 1.2vw;
-    text-align: justify;
+    top: 2rem;
+    width: 45rem;
+    font-size: 1.7rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+@media (min-width: 850px){
+    .contenu-profil-professionel{
+        width: 45rem;
+    }
+}
+@media (max-width: 850px){
+    .contenu-profil-professionel{
+        width: 15rem;
+        font-size: 1.3rem;
+    }
 }
 
 /*Bloc compétences*/
 
-.competences{
-    position: absolute;
-    top: 535px;
-    left: 22.5%; 
-    font-size: 2vw;
-    color: white;
-    -webkit-text-stroke: 0.1vw;
-    -webkit-text-stroke-color: black;
-}
-.bloc-competences{
-    position: absolute;
-    background: rgba(255, 255, 255, 0.7);
-    border-width: 5px;
-    border-style: solid;
+.contenu-competences{
+    position: relative;
+    border: solid black 5px;
+    padding-right: 1.8rem;
     border-radius: 10%;
-    width: 35%;
-    top: 615px;
-    left: 15%;
-    display: flex;
-    justify-content: space-around;
-}
-#contenu-competences-1{
-    position: relative;
-    font-size: 1.2vw;
-}
-#contenu-competences-2{
-    position: relative;
-    font-size: 1.2vw;
+    width: 15rem;
+    top: 2rem;
+    background: rgba(255, 255, 255, 1);
+    font-size: 1.7rem;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10rem;
 }
 
 /*Bloc centre interets*/
 
-.centre-interets{
-    position: absolute;
-    top: 200px;
-    left: 70%; 
-    font-size: 2vw;
-    color: white;
-    -webkit-text-stroke: 0.1vw;
-    -webkit-text-stroke-color: black;
-}
 #contenu-centre-interets{
-    position: absolute;
-    border-width: 5px;
-    border-style: solid;
+    padding-right: 2rem;
+    position: relative;
+    border: solid black 5px;
     border-radius: 10%;
-    background: rgba(255, 255, 255, 0.7);
-    width: 15.5%;
-    top: 325px;
-    left: 70%;
-    font-size: 1.2vw;
-    padding-bottom: 5px;
-    padding-right: 1%;
-    padding-left: 1%;
+    width: 40rem;
+    top: 2rem;
+    background: rgba(255, 255, 255, 1);
+    font-size: 1.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10rem;
 }
-#contenu-centre-interets li{
-    padding-top: 10px;
+@media (min-width: 850px){
+    #contenu-centre-interets{
+        width: 40rem;
+    }
+}
+@media (max-width: 850px){
+    #contenu-centre-interets{
+        width: 15rem;
+        font-size: 1.3rem;
+    }
 }
 
 /*Bloc formation*/
 
-.ma-formation{
-    position: absolute;
-    top: 850px;
-    left: 35%;
-    font-size: 2vw;
-    color: white;
-    -webkit-text-stroke: 0.1vw;
-    -webkit-text-stroke-color: black;
-}
 .formation{
+    position: relative;
     border: solid black 5px;
     border-radius: 10%;
+    width: 50rem;
+    top: 2rem;
     background: linear-gradient(267deg, rgb(83, 80, 83), rgb(223, 223, 219), rgb(83, 80, 83));
-    position: absolute;
-    top: 950px;
-    left: 13%;
-    width: 75%;
-    height: 200px;
+    font-size: 1.3rem;
     display: flex;
-    justify-content: space-around;
-    font-size: 1.1vw;
-    text-align: justify;
+    flex-wrap: wrap;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+@media (min-width: 850px){
+    .formation{
+        width: 50rem;
+    }
+}
+@media (max-width: 850px){
+    .formation{
+        width: 15rem;
+        font-size: 1.3rem;
+    }
 }
 .college{
     border: solid black 2px;
-    padding: 20px 1% 0px 1%;
+    padding: 20px 1% 20px 1%;
     border-radius: 20%;
     position: relative;
     margin: 10px 1% 10px 1%;
@@ -426,7 +419,7 @@ Vitae*/
 }
 .lycee{
     border: solid black 2px;
-    padding: 20px 1% 0px 1%;
+    padding: 20px 1% 20px 1%;
     border-radius: 20%;
     position: relative;
     margin: 10px 1% 10px 1%;
@@ -434,10 +427,10 @@ Vitae*/
 }
 .etude{
     border: solid black 2px;
-    padding: 20px 1% 0px 1%;
+    padding: 20px 1% 20px 1%;
     border-radius: 20%;
     position: relative;
-    margin: 10px 1% 10px 1%;
+    margin: auto;
     background-color: rgba(255, 255, 255, 0.7);
 }
 /*Le bouton pdf*/
@@ -450,7 +443,7 @@ Vitae*/
     z-index: 10;
     border: white solid 1px;
     border-radius: 10%;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: white;
 }
 .pdf:hover{
@@ -630,5 +623,11 @@ plus*/
     }
   }
 
+
+      
+
+
+
   /*Pour mobile*/
+  
   
