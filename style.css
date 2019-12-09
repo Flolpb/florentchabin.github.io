@@ -5,14 +5,6 @@
 DU 
 
 SITE 
-
-POUR
-
-PC 
-
-ET
-
-TABLETTE
 */
 
 
@@ -112,11 +104,10 @@ navigation*/
     width: 10rem;
     z-index: 1;
 }
-.accueil, .cv, .blog{
+.accueil, .cv, .github{
     text-decoration: none;
     position: relative;
     top: 2.5rem;
-    margin-left: 2rem;
     text-align: center;
     padding-bottom: 1rem;
 }
@@ -175,6 +166,7 @@ l'accueil*/
     text-align: center;
     margin: auto;
     margin-bottom: 10rem;
+    z-index:1;
 }
 @media (min-width: 700px){
     .contenu-presentation{
